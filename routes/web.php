@@ -16,3 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::view('/', 'app');
 Route::view('{all}', 'app')
     ->where(['all' => '^(?!api).*$']);
+
+Route::name('altaUsuarios')->get('/altaUsuarios','Usuarios\UsuariosController@index');
