@@ -13,3 +13,4 @@
     <script type="text/javascript" charset="UTF-8" src="{{mix('js/app.js', 'apithy')}}"></script>
 </body>
 </html>
+ 
